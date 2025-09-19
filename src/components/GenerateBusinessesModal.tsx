@@ -129,7 +129,6 @@ export function GenerateBusinessesModal({
               onChange={(e) => setLimit(Number(e.target.value))}
               className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               min="1"
-              max="100"
               required
             />
           </div>
